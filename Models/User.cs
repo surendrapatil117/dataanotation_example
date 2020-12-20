@@ -8,7 +8,7 @@ using System.ComponentModel;
 namespace DataAnotation.Models
 {
     public class User
-    {//Anotation
+    {   //Anotation
         [DisplayName("User Name")]
         [Required(ErrorMessage ="Name should be filled")]
         public string Name { get; set; }
