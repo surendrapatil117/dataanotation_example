@@ -8,7 +8,7 @@ using System.ComponentModel;
 namespace DataAnotation.Models
 {
     public class User
-    {   // deleted my branchAnotation
+    {   //deleted my branchAnotation
         [DisplayName("User Name")]
         [Required(ErrorMessage ="Name should be filled")]
         public string Name { get; set; }
